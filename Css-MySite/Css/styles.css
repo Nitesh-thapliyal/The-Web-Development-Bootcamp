@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+h1{
+    margin-top:0;
+}
+
+
+.top-container{
+    background-color: #EDF1D6;
+}
+
+.middle-container{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin-left: 0;
+}
+
+.bottom-container{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    margin-left: 0;
+}
