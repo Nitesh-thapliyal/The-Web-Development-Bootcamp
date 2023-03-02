@@ -1,11 +1,37 @@
 body{
     margin: 0;
     text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
 h1{
-    margin-top:0;
+    /* 100%  =  16px , 1em = 16px, em is used for dynamic sizing
+    
+    % -> it is also same as em 
+    em -> used for dynamic but it inherits the parent em and adds it up which is dangerous
+    rem -> to solve the issue of em we use rem so that it ignores the parent or root em
+    
+    */
+    font-size: 5.625rem;
+    margin:50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    line-height: 4px;
 
+}
+
+h2{
+    font-size: 2.5rem;;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a{
+    color: #11999E;
 }
 
 .web{
@@ -19,21 +45,17 @@ h1{
 }
 
 .middle-container{
-    height: 200px;
-    width: 200px;
-    background-color: red;
+
     
 }
 
 .bottom-container{
-    height: 200px;
-    width: 200px;
-    background-color: blue;
+
 }
 
 .top-cloud{
     position:absolute;
-    right: 700px;
+    right: 400px;
     top: 50px;
 }
 .bottom-cloud{
